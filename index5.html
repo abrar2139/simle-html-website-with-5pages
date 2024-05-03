@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        
+        <span style="height: 55px; width: 55px; border-radius: 50%; overflow: hidden;" ><a href="#"><img style="height: 100%;width: 100%;" src="images/logo.png" alt=""></a></span>
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html">About</a></li>
+            <li><a href="index3.html">Gallery</a></li>
+            <li><a href="index4.html">Services</a></li>
+            <li><a href="index5.html">Contact</a></li> 
+        </ul>
+        <i class="fa fa-bars" id="icon" style="font-size:36px"></i>
+    </nav>
+    <h1>Contact Us</h1>
+
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+  
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone">
+  
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" required>
+  
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" required></textarea>
+  
+      <button type="submit">Send</button>
+    </form>
+    <footer style="height: 60px; width: 100%; color: white; background-color:#66a3ff ; text-align: center; font-size: 30px;display: grid;align-content: center;">All rights are reserved</footer>
+  <style>
+    h1{
+        color: white;
+        text-align: center;
+    }
+textarea{
+width: 90%;
+margin: auto;
+padding: 20px;
+border-radius: 20px;
+border: 3px solid white;
+outline: none;
+background-color: transparent;
+}
+label{
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+    input{
+        background-color: transparent;
+        border-radius: 20px;
+        padding: 15px;
+        outline: navy;
+        border: 3px solid white;
+        width: 90%;
+        margin: auto;
+    }
+    body{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/184/630/480/4k-nice-picture-wallpaper-preview.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    form{
+        margin: auto;
+        border: 3p solid blue;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 84vh;
+        gap: 10px;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    button:hover{
+        color: white;
+        border: 3px solid blue;
+        background-color: blue;
+        transition:all .5s ease-in-out;
+    }
+    button{
+        background-color: transparent;
+        cursor: pointer;
+        border: 2px solid blue;
+        margin-top: 20px;
+        margin: auto;
+        width: 200px;
+        color: blue;
+        font-weight: 900;
+        padding: 15px 10px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+  </style>
+
+
+    
+    
+</body>
+</html>
